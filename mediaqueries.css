@@ -1,0 +1,15 @@
+/* Responsive Design */
+@media (max-width: 768px) {
+  .profile {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image-container {
+    margin-bottom: 20px;
+  }
+
+  .hero-image-container img {
+    margin-right: 0;
+  }
+}
