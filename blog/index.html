@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="blog-style.css">
-    <title>Brayden Blog</title>
+    <link rel="stylesheet" href="blog-style.css" />
+    <title>Brayden Vibe Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -12,18 +12,18 @@
 
 <body>
 <!-- Navigation Bar -->
-<header>
+<header id="home">
   <nav class="navbar">
     <div class="logo">
       <!-- Replace with your logo image -->
       <img src="./Assets/blue-logo.png" alt="Logo" class="logo-img" />
     </div>
     <ul class="nav-links">
-      <li><a href="./index.html" class="bottom-border-transition">Home</a></li>
-      <li><a href="./" class="bottom-border-transition">Experience</a></li>
-      <li><a href="#" class="bottom-border-transition">Projects</a></li>
+      <li><a href="../" class="bottom-border-transition">Home</a></li>
+      <li><a href="../#experience" class="bottom-border-transition">Experience</a></li>
+      <li><a href="../#contact" class="bottom-border-transition">Contact</a></li>
+      <li><span class="nav-pipe">|</span></li>
       <li><a href="#" class="bottom-border-transition">Blog</a></li>
-      <li><a href="#" class="bottom-border-transition">Contact</a></li>
     </ul>
   </nav>
 </header>
@@ -32,18 +32,29 @@
     <img src="./Assets/sky-blue-banner.png" alt="Hero" />
 </div>
 
-<!-- Profile Section -->
-<section class="profile">
-  <div class="profile-info">
-    <h1>Marketing Copywriter</h1>
-    <p>Hello! I'm a passionate marketing copywriter who loves crafting compelling content that connects with audiences and drives results.</p>
+<!-- About-Blog Section -->
+<section id="about-blog">
+  <div class="about-blog-info">
+    <h1>Check Out My Blog!</h1>
+    <p>Random things I love to write about. It's fun!</p>
+    <div class="blog-nav-button-container">
+        <button class="blog-nav-button">Browse Here!</button>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <div class="contact-info">
+    <h1>Want to Get in Touch?</h1>
+    <p>Shoot me an email or message me on socials.</p>
     <div class="button-container">
-        <button class="nav-button">Download My Resume</button>
         <button class="nav-button">Contact Me</button>
     </div>
     <div class="social-icon-container">
       <img src="./Assets/linkedin.png" alt="My LinkedIn Profile" class="social-icon" onclick="window.open('https://www.linkedin.com/in/wisemanbrayden', '_blank')"/>
-      <img src="./Assets/instagram.png" alt="My LinkedIn Profile" class="social-icon-big" onclick="window.open('https://www.instagram.com/braydenwiseman/', '_blank')"/>
+      <img src="./Assets/linkedin.png" alt="My LinkedIn Profile" class="social-icon" onclick="window.open('https://www.instagram.com/braydenwiseman/', '_blank')"/>
     </div>
   </div>
 </section>
