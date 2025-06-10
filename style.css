@@ -61,6 +61,11 @@ a, .nav-button {
 .bottom-border-transition:hover {
     color: #1D1D1E;
 }
+.nav-pipe {
+  font-size: 30px;
+  cursor: default;
+}
+
 /* Hero Section */
 .hero-image-container {
     width: 100%;
@@ -69,7 +74,7 @@ a, .nav-button {
     width: 100%;
 }
 /* Profile Section */
-.profile {
+#profile {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -97,6 +102,7 @@ a, .nav-button {
   justify-content: center;
   gap: 1rem;
   padding: 1rem;
+  padding-bottom: 0;
 }
 .nav-button {
     border-radius: 2.5rem;
@@ -114,12 +120,118 @@ a, .nav-button {
 }
 .social-icon-container {
   display: flex;
-  gap: .5rem;
   justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  gap: 1rem;
 }
 .social-icon {
   height: 2.5rem;
+  width: auto;
+}
+.social-icon-big {
+  height: 2.7rem;
+  width: auto;
 }
 .social-icon:hover {
     cursor: pointer;
+}
+.social-icon-big:hover {
+    cursor: pointer;
+}
+
+/* Experience Section */
+#experience {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.experience-info {
+  max-width: 500px;
+}
+
+.experience-info h1 {
+  font-family: 'Oswald';
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.experience-info p {
+  margin-bottom: 15px;
+}
+/* About-Blog Section */
+#about-blog {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.about-blog-info {
+  max-width: 500px;
+}
+
+.about-blog-info h1 {
+  font-family: 'Oswald';
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.about-blog-info p {
+  margin-bottom: 15px;
+}
+
+.blog-nav-button-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  padding-bottom: 0;
+}
+.blog-nav-button {
+    border-radius: 2.5rem;
+    font-family: 'Lato';
+    font-weight: 600;
+    border: none;
+    padding: 1rem;
+    width: 20rem;
+    background-color: #e1f5fe;
+}
+.blog-nav-button:hover {
+  cursor: pointer;
+  background-color: #d5f1fe;
+  transition: all 0.5s ease;
+}
+/* Contact Section */
+#contact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.contact-info {
+  max-width: 500px;
+}
+
+.contact-info h1 {
+  font-family: 'Oswald';
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin-bottom: 15px;
 }
