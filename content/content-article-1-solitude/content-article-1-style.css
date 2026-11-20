@@ -739,6 +739,24 @@ footer {
     margin-bottom: 0;
     line-height: 1.75;
 }
+        .footer-periwinkle {
+        background-color: var(--periwinkle-primary);
+        padding-bottom: calc(1.5rem + env(safe-area-inset-bottom));
+        }
+        @media (min-width: 1100px) {
+        .footer-periwinkle {
+            padding-bottom: calc(1rem + env(safe-area-inset-bottom));
+        }
+        }
+        .footer-teal {
+        background-color: var(--teal-primary);
+        padding-bottom: calc(1.5rem + env(safe-area-inset-bottom));
+        }
+        @media (min-width: 1100px) {
+        .footer-teal {
+            padding-bottom: calc(1rem + env(safe-area-inset-bottom));
+        }
+        }
 /*#endregion*/
 /*#region TEXT SIZE */
     .text-size-xxl { font-size: clamp(3.5rem, 7vw, 5.1rem); }
